@@ -1,4 +1,3 @@
-from tkinter import Button
 from pynput.mouse import Button, Controller
 import random
 import tkinter as tk
