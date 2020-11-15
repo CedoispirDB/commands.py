@@ -176,3 +176,304 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1604376990414	Marionette	INFO	Listening on port 50730
 1604376990531	Marionette	WARN	TLS certificate errors will be ignored for this session
 1604376998136	Marionette	INFO	Stopped listening on port 50730
+1604548852213	geckodriver	INFO	Listening on 127.0.0.1:54265
+1604548852237	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofilez0k0Gy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604548854376	Marionette	INFO	Listening on port 54274
+1604548854429	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("nextProps.toolboxDoc.defaultView is null", "resource://devtools/client/shared/components/menu/MenuButton.js", 139))
+console.error: (new TypeError("this.browser is undefined", "resource://devtools/client/responsive/components/App.js", 106))
+JavaScript error: resource://devtools/client/shared/components/menu/MenuButton.js, line 139: TypeError: nextProps.toolboxDoc.defaultView is null
+1604548976620	Marionette	INFO	Stopped listening on port 54274
+1604550043794	geckodriver	INFO	Listening on 127.0.0.1:54565
+1604550044801	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileehd0tm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550047079	Marionette	INFO	Listening on port 54576
+1604550047196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604550087895	geckodriver	INFO	Listening on 127.0.0.1:54655
+1604550088905	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileoapueS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550090962	Marionette	INFO	Listening on port 54662
+1604550091066	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 19: TypeError: browser is null
+1604550112114	Marionette	INFO	Stopped listening on port 54662
+1604550114763	Marionette	INFO	Stopped listening on port 54576
+1604550123690	geckodriver	INFO	Listening on 127.0.0.1:54751
+1604550124695	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileKYQMEF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550126658	Marionette	INFO	Listening on port 54758
+1604550126685	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=122afe400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=122afe400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=122afe400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=122afe400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=122afe400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=122afe400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=122afe400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=122afe400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=122afe400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=11d283400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=11d283400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=11d283400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=11d283400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=11d283400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=11d283400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12795, MediaDecoderStateMachine #1] WARNING: Decoder=11d283400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+console.warn: "Inspector destroyed while executing onReflow callback"
+console.error: "Could not get the list of font families" (new Error("Connection closed, pending request to server0.conn0.child2/pagestyle26, type getUsedFontFaces failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:274:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetUsedFontFamilies/</<@resource://devtools/client/inspector/rules/models/element-style.js:227:46\n", "resource://devtools/shared/protocol/Front.js", 98))
+JavaScript error: https://tpc.googlesyndication.com/sodar/5k7CCto5.html, line 35: NS_ERROR_NOT_INITIALIZED: 
+1604550147939	geckodriver	INFO	Listening on 127.0.0.1:54855
+1604550148950	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofilewfepVV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550151373	Marionette	INFO	Listening on port 54862
+1604550151443	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12803, MediaDecoderStateMachine #1] WARNING: Decoder=12c1c4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 12803, MediaDecoderStateMachine #1] WARNING: Decoder=12c1c4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 19: TypeError: browser is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1604550161332	geckodriver	INFO	Listening on 127.0.0.1:54953
+1604550162340	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileOlfX9V"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550164369	Marionette	INFO	Listening on port 54960
+1604550164423	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604550185239	geckodriver	INFO	Listening on 127.0.0.1:55044
+1604550186247	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofile1QRwSi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550188251	Marionette	INFO	Listening on port 55055
+1604550188316	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604550214342	Marionette	INFO	Stopped listening on port 54758
+1604550216773	Marionette	INFO	Stopped listening on port 54862
+1604550219630	Marionette	INFO	Stopped listening on port 54960
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1604550221401	Marionette	INFO	Stopped listening on port 55055
+1604550256849	geckodriver	INFO	Listening on 127.0.0.1:55185
+1604550257856	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofilepU1nc8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550259794	Marionette	INFO	Listening on port 55192
+1604550259826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604550270674	geckodriver	INFO	Listening on 127.0.0.1:55277
+1604550271683	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofilekpiobI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550273889	Marionette	INFO	Listening on port 55286
+1604550273966	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12844, MediaDecoderStateMachine #1] WARNING: Decoder=11e539000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 19: TypeError: browser is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1604550289601	geckodriver	INFO	Listening on 127.0.0.1:55381
+1604550289607	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileMKocDn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550291635	Marionette	INFO	Listening on port 55386
+1604550291682	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604550300291	geckodriver	INFO	Listening on 127.0.0.1:55458
+1604550301301	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileU06m9R"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550303254	Marionette	INFO	Listening on port 55465
+1604550303278	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604550440013	geckodriver	INFO	Listening on 127.0.0.1:55593
+1604550441022	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofile4kEdKF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550443111	Marionette	INFO	Listening on port 55602
+1604550443215	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604550584393	geckodriver	INFO	Listening on 127.0.0.1:55709
+1604550585403	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofile1zK2Rg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550587669	Marionette	INFO	Listening on port 55716
+1604550587697	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604550629431	geckodriver	INFO	Listening on 127.0.0.1:55808
+1604550630440	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileNhJMtI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550632728	Marionette	INFO	Listening on port 55815
+1604550632835	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12962, MediaDecoderStateMachine #1] WARNING: Decoder=139389800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 19: TypeError: browser is null
+1604550700035	geckodriver	INFO	Listening on 127.0.0.1:55923
+1604550701048	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileuesvBp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550703957	Marionette	INFO	Listening on port 55930
+1604550704042	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604550764218	geckodriver	INFO	Listening on 127.0.0.1:56038
+1604550765225	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileXhuSw9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550767449	Marionette	INFO	Listening on port 56045
+1604550767512	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1604550806467	geckodriver	INFO	Listening on 127.0.0.1:56136
+1604550807479	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofile8VFUHb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550809865	Marionette	INFO	Listening on port 56143
+1604550809963	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13025, MediaDecoderStateMachine #1] WARNING: Decoder=1303cc800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 19: TypeError: browser is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1604550878671	geckodriver	INFO	Listening on 127.0.0.1:56258
+1604550879677	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofileuWTjix"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550882228	Marionette	INFO	Listening on port 56265
+1604550882348	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13048, MediaDecoderStateMachine #1] WARNING: Decoder=130cea000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13048, MediaDecoderStateMachine #1] WARNING: Decoder=130cea000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13048, MediaDecoderStateMachine #1] WARNING: Decoder=130cea000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13048, MediaDecoderStateMachine #1] WARNING: Decoder=130cea000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+1604550939922	geckodriver	INFO	Listening on 127.0.0.1:56375
+1604550940932	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofilegVkL8q"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604550943037	Marionette	INFO	Listening on port 56382
+1604550943126	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=128e7c400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=128e7c400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=128e7c400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=128e7c400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=128e7c400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=12f86b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=12f86b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=12f86b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=12f86b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=12f86b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=12f86b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=11e379400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=11e379400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+[Child 13069, MediaDecoderStateMachine #1] WARNING: Decoder=11e379400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3471
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:566:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 341))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 341))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:566:5)", "resource://devtools/shared/protocol/Front.js", 341))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 341))
+1604551025965	Marionette	INFO	Stopped listening on port 56382
+1604551028163	Marionette	INFO	Stopped listening on port 55286
+1604551028929	Marionette	INFO	Stopped listening on port 55386
+1604551030478	Marionette	INFO	Stopped listening on port 55192
+1604551031442	Marionette	INFO	Stopped listening on port 55465
+1604551033197	Marionette	INFO	Stopped listening on port 55602
+1604551034134	Marionette	INFO	Stopped listening on port 55716
+1604551036035	Marionette	INFO	Stopped listening on port 55815
+1604551037490	Marionette	INFO	Stopped listening on port 55930
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1604551038515	Marionette	INFO	Stopped listening on port 56045
+1604551039589	Marionette	INFO	Stopped listening on port 56143
+1604551040627	Marionette	INFO	Stopped listening on port 56265
+1604551058797	geckodriver	INFO	Listening on 127.0.0.1:56502
+1604551059805	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/1l/_7nq71mn0z78yx40w9mgzlq80000gn/T/rust_mozprofile2M8gYY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604551061852	Marionette	INFO	Listening on port 56509
+1604551061966	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604551069623	Marionette	INFO	Stopped listening on port 56509

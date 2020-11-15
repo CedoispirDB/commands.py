@@ -1,6 +1,5 @@
 import os
 import sys
-import webbrowser
 from selenium import webdriver
 import time
 
