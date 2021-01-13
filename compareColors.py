@@ -18,5 +18,3 @@ print(get_main_color("/Users/marcobarreirinhas/Desktop/mineStone.jpg"))
 
 img = Image.open("/Users/marcobarreirinhas/Desktop/mineStone.jpg")
 colors = img.getcolors(256)
-for c in colors:
-    print(c)

@@ -4,7 +4,7 @@ from pynput.mouse import Button, Controller
 import random
 import tkinter as tk
 import time
-import keyboard
+import  keyboard
 
 time.sleep(5)
 
