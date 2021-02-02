@@ -1,15 +1,14 @@
 from alphabetiz import listOfAnime
 
 
-def moveAnimes(x):
+def moveAnimes(initialPos, finalPos):
     animeW = listOfAnime(1)
     animeNF = listOfAnime(2)
     animeNS = listOfAnime(3)
-    links = listOfAnime(4)
 
-    animeToChange = int(input("What anime would you like to change? "))
-    initialPosition = int(input("From what position? "))
-    finalPosition = int(input("To what position? "))
+    animeToChange = input("What anime would you like to change? ")
+    initialPosition = initialPos
+    finalPosition = finalPos
 
     toMove = ""
     if initialPosition == 1:
@@ -39,20 +38,7 @@ def moveAnimes(x):
             print("This anime is already in not started")
 
     animeW.sort()
-    animeNS.sort()
     animeNF.sort()
+    animeNS.sort()
 
-    if x == 1:
-        animeW.sort()
-        return animeW
-    elif x == 2:
-        animeNF.sort()
-        return animeNF
-    elif x == 3:
-        animeNS.sort()
-        return animeNS
-    elif x == 4:
-        links.sort()
-        return links
-    else:
-        return []
+    return animeW, animeNF, animeNS

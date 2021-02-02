@@ -20,17 +20,13 @@ def findGC(dir):
             findGC(files)
 
 
-option = input("Normal or GC?")
-option = option.lower()
-if option == "":
 
-    m = input("Which File would you like? ")
-    m = m.lower()
 
-    d = input("What is the star point? ")
-    if d == "":
-        findFile("/Users/marcoBarreirinhas", m)
-    else:
-        findFile(d, m)
+m = input("Which File would you like? ")
+m = m.lower()
+
+d = input("What is the star point? ")
+if d == "":
+    findFile("/Users/marcoBarreirinhas", m)
 else:
-    findGC("/")
+    findFile(d, m)

@@ -20,7 +20,7 @@ if pw == "":
     choice = input("Choose a file: ")
 
 toBytes = False
-allowedEx = [".png", ".jpg", ".mp4", ".mp3"]
+allowedEx = [".png", ".jpg", ".mp4", ".mp3",".jpeg"]
 leave = False
 
 for files in glob.glob(os.path.join(choice, '*')):
@@ -47,7 +47,6 @@ if toBytes:
             new_file.write(new_file_bytes)
             os.remove(files)
 else:
-
     for files in glob.glob(os.path.join(choice, '*')):
         for x in allowedEx:
             ex = hashlib.sha1(x.encode()).hexdigest()

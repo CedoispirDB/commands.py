@@ -25,28 +25,31 @@ def listOfAnime(x):
 
         if lines.__contains__("Watched"):
             ok1 = True
-        if lines.__contains__("Not finished"):
+        elif lines.__contains__("Not Finished"):
             ok2 = True
             ok1 = False
-        if lines.__contains__("Not started"):
+        elif lines.__contains__("Not Started"):
             ok3 = True
             ok2 = False
-        if lines.__contains__("Links"):
+        elif lines.__contains__("Links"):
             ok4 = True
+            ok3 = False
+        elif lines.__contains__("Animes"):
             ok3 = False
 
         if ok1:
             if not lines.__contains__("Watched"):
                 if isText(lines):
-                    animeWList.append(lines)
+                    animeWList.append(lines[lines.index(")") + 2:])
         elif ok2:
-            if not lines.__contains__("Not finished"):
+            if not lines.__contains__("Not Finished"):
                 if isText(lines):
-                    animeNFList.append(lines)
+                    animeNFList.append(lines[lines.index(")") + 2:])
         elif ok3:
-            if not lines.__contains__("Not started"):
+
+            if not lines.__contains__("Not Started"):
                 if isText(lines):
-                    animeNSList.append(lines)
+                    animeNSList.append(lines[lines.index(")") + 2:])
         elif ok4:
             if not lines.__contains__("Links"):
                 if not lines.__contains__("Links"):
@@ -69,10 +72,10 @@ def listOfAnime(x):
         return []
 
 
-def write():
-    animeW = listOfAnime(1)
-    animeNF = listOfAnime(2)
-    animeNS = listOfAnime(3)
+def write(AW, NF, NS):
+    animeW = AW
+    animeNF = NF
+    animeNS = NS
     links = listOfAnime(4)
 
     countW = len(animeW)
@@ -83,7 +86,7 @@ def write():
 
     count = 1
 
-    animeList2.write("Anime\n\n\n")
+    animeList2.write("Animes\n\n\n")
     animeList2.write("Watched/In progress(" + str(countW) + "):\n")
     for n in animeW:
         animeList2.write("\n")
@@ -115,6 +118,3 @@ def write():
     for n in links:
         animeList2.write("\n")
         animeList2.write(n)
-
-
-write()
