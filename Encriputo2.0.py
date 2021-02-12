@@ -3,8 +3,7 @@ import os
 import hashlib
 from password import password
 
-
-
+choice = ""
 
 while True:
     pw = input("Password: ")
@@ -19,8 +18,14 @@ while True:
 if pw == "":
     choice = input("Choose a file: ")
 
+count = 0
+for files in glob.glob(os.path.join(choice, '*')):
+    count += 1
+
+print("The number of pictures is " + str(count))
+
 toBytes = False
-allowedEx = [".png", ".jpg", ".mp4", ".mp3",".jpeg"]
+allowedEx = [".png", ".jpg", ".mp4", ".mp3", ".jpeg"]
 leave = False
 
 for files in glob.glob(os.path.join(choice, '*')):
