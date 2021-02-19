@@ -19,6 +19,7 @@ showContent = False
 move = False
 addAnime = False
 find = False
+givePos = False
 w = False
 nf = False
 ns = False
@@ -47,19 +48,25 @@ if len(sys.argv) > 1:
     elif arg[len(arg) - 1:] == "f":
         find = True
         search = arg[:len(arg) - 1]
+    elif arg[len(arg) - 1:] == "p":
+        givePos = True
+        find = True
+        search = arg[:len(arg) - 1]
     elif arg == "h":
         print("To organize an anime:\nrun the program without any arguments\n")
         print(
-            "To Move an anime:\nWrite the position of the anime you want to move, the number of the list that this "
+            "To Move an anime:\nType the position of the anime you want to move, the number of the list that this "
             "anime is, "
             " and the number of the list this anime should go(without any space between them)\n")
         print(
-            "To add an anime:\nwrite the name of the anime e put the number of the list in the end of the name("
+            "To add an anime:\nType the name of the anime e put the number of the list in the end of the name("
             "without any space)\n*If the name has more than one word, put it between quotes*\n")
         print(
-            "To find an anime:\nWrite the name of the anime you would like and add and 'f' in the end(without any "
+            "To find an anime:\nType the name of the anime you would like and add and 'f' in the end(without any "
             "space)\n")
-        print("To show how many in which a certain list:\nWrite \"total\" + 1/2/3(from which list you want")
+        print("To show how many in which a certain list:\nWrite \"total\" + 1/2/3(from which list you want)\n")
+        print("To show the list of animes:\nType \"show\", if you want an specific list type type \"show\"  + 1/2/3("
+              "from which list you want)")
         exit(0)
     elif isText(arg):
         addAnime = True
@@ -80,8 +87,8 @@ if len(sys.argv) > 1:
 # print("animePos: " + str(animePos))
 
 # Open files to read from and to write on
-file = open("/Users/marcobarreirinhas/Programs/Python/AnimeList.txt", "r")
-file2 = open("/Users/marcobarreirinhas/Programs/Python/AnimeList2.txt", "w")
+file = open("/Users/marcobarreirinhas1/Programs/Python/AnimeList.txt", "r")
+file2 = open("/Users/marcobarreirinhas1/Programs/Python/AnimeList2.txt", "w")
 
 for line in file:
     line = line.strip("\n")
@@ -108,6 +115,13 @@ if find:
     k = locate(search, watched, notFinished, notStarted)
     pos = k[0]
     List = k[1]
+    if givePos:
+        pos = str(pos + 1) + str(List)
+
+        sys.exit(pos)
+    else:
+        pass
+
     if List == 1:
         print(watched[pos] + " was found in watched, position " + str(pos + 1))
     if List == 2:
@@ -166,6 +180,12 @@ if addAnime:
             print(newAnime + " was added to the not started list")
         else:
             print("This anime is already in this list. In position: " + str(notStarted.index(newAnime) + 1))
+    elif finPos == 4:
+        if not manga.__contains__(newAnime):
+            manga.append(newAnime)
+            print(newAnime + " was added to the manga list")
+        else:
+            print("This manga is already in this list. In position: " + str(manga.index(newAnime) + 1))
 
 # Show number of Animes in which list
 if countTotal:
@@ -222,8 +242,8 @@ if not showContent:
 
     file.close()
     file2.close()
-    file = open("/Users/marcobarreirinhas/Programs/Python/AnimeList.txt", "w")
-    file2 = open("/Users/marcobarreirinhas/Programs/Python/AnimeList2.txt", "r")
+    file = open("/Users/marcobarreirinhas1/Programs/Python/AnimeList.txt", "w")
+    file2 = open("/Users/marcobarreirinhas1/Programs/Python/AnimeList2.txt", "r")
     for k in file2:
         file.write(k)
 else:

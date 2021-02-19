@@ -20,8 +20,6 @@ def findGC(dir):
             findGC(files)
 
 
-
-
 m = input("Which File would you like? ")
 m = m.lower()
 

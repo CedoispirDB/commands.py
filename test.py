@@ -1,3 +1,2 @@
-name = "Marco"
-print(name.__contains__("a"))
-print(name.startswith("m"))
+import sys
+sys.exit("oi")

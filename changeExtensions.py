@@ -4,6 +4,11 @@ from getExtension import getEx, getName
 
 location = os.getcwd()
 
+q = input("You will change the extension of all files in this folder. Are you sure?")
+q = q.lower()
+if q == "n" or q == "no":
+    exit()
+
 for f in glob.glob(os.path.join(location, "*")):
     if os.path.splitext(f)[1] == ".txt":
         ex = "png" 
