@@ -3,21 +3,21 @@ import os
 import hashlib
 from password import password
 
-choice = ""
+# choice = ""
 
-while True:
-    pw = input("Password: ")
-    if password(pw):
-        choice = "/Users/youKnow"
-        break
-    elif pw == "":
-        break
-    else:
-        print("Invalid Password")
-
-if pw == "":
-    choice = input("Choose a file: ")
-
+# while True:
+#     pw = input("Password: ")
+#     if password(pw):
+#         choice = "/Users/youKnow"
+#         break
+#     elif pw == "":
+#         break
+#     else:
+#         print("Invalid Password")
+#
+# if pw == "":
+#     choice = input("Choose a file: ")
+choice = "/Users/Test"
 count = 0
 for files in glob.glob(os.path.join(choice, '*')):
     count += 1

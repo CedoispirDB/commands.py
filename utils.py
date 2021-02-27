@@ -8,7 +8,7 @@ def checkForSameValues(listM):
             if n == listM[k]:
                 count += 1
                 if count == 2:
-                    print("there is two of "  + n )
+                    print("there is two of " + n)
 
 
 def isText(line):
@@ -46,10 +46,10 @@ def locate(search, list1, list2, list3):
     totalList = sumLists(list1, list2, list3)
     if totalList.__contains__(search):
         pos = totalList.index(search)
+        found = True
     else:
         for n in totalList:
             name = n
-
             if n.__contains__(search):
                 pos = totalList.index(name)
                 found = True
@@ -59,10 +59,15 @@ def locate(search, list1, list2, list3):
             # print("n: " + str(n))
             ss = search.split()
             if len(ss) >= 2:
-                if ss.__contains__(n[0]) or ss.__contains__(n[1]):
+                if ss.__contains__(n[0]):
                     pos = totalList.index(name)
                     found = True
                     break
+                elif len(n) >= 2:
+                    if ss.__contains__(n[1]):
+                        pos = totalList.index(name)
+                        found = True
+                        break
             for k in n:
                 if k.__contains__(search):
                     pos = totalList.index(name)

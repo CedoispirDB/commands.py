@@ -20,23 +20,32 @@ move = False
 addAnime = False
 find = False
 givePos = False
-w = False
-nf = False
-ns = False
-countW = False
-countF = False
-countS = False
-countTotal = False
 newAnime = ""
 change = ""
 search = ""
+
+# Show anime variables
+w = False
+nf = False
+ns = False
+m = False
+countW = False
+
+# Count number os animes variables
+countF = False
+countS = False
+countM = False
+countTotal = False
 
 if len(sys.argv) > 1:
     arg = sys.argv[1]
     if arg.__contains__("show"):
         showContent = True
-        if len(arg) > 4:
+        if len(arg) > 4 and int(arg[arg.index("w") + 1:]) <= 4:
             aList = int(arg[arg.index("w") + 1:])
+        elif len(arg) > 4:
+            print(str(int(arg[arg.index("w") + 1:])) + " is not a list")
+            exit()
     elif arg.__contains__("total"):
         countTotal = True
         if arg[len(arg) - 1:] == "1":
@@ -45,6 +54,8 @@ if len(sys.argv) > 1:
             countF = True
         elif arg[len(arg) - 1:] == "3":
             countS = True
+        elif arg[len(arg) - 1:] == "4":
+            countM = True
     elif arg[len(arg) - 1:] == "f":
         find = True
         search = arg[:len(arg) - 1]
@@ -65,8 +76,9 @@ if len(sys.argv) > 1:
             "To find an anime:\nType the name of the anime you would like and add and 'f' in the end(without any "
             "space)\n")
         print("To show how many in which a certain list:\nWrite \"total\" + 1/2/3(from which list you want)\n")
-        print("To show the list of animes:\nType \"show\", if you want an specific list type type \"show\"  + 1/2/3("
-              "from which list you want)")
+        print(
+            "To show the list of animes:\nType \"show\", if you want an specific list type type \"show\"  + "
+            "1/2/3(from which list you want)")
         exit(0)
     elif isText(arg):
         addAnime = True
@@ -80,11 +92,6 @@ if len(sys.argv) > 1:
     else:
         print("Invalid argument(Require 3 digits)")
         exit(0)
-
-# Debug purposes
-# print("initial pos: " + str(initPos))
-# print("final pos: " + str(finPos))
-# print("animePos: " + str(animePos))
 
 # Open files to read from and to write on
 file = open("/Users/marcobarreirinhas1/Programs/Python/AnimeList.txt", "r")
@@ -117,7 +124,6 @@ if find:
     List = k[1]
     if givePos:
         pos = str(pos + 1) + str(List)
-
         sys.exit(pos)
     else:
         pass
@@ -187,16 +193,18 @@ if addAnime:
         else:
             print("This manga is already in this list. In position: " + str(manga.index(newAnime) + 1))
 
-# Show number of Animes in which list
+# Show number of Animes in each list
 if countTotal:
     if not (countW or countF or countS):
-        print("Please select the list that you want(1/2/3)")
+        print("Total: " + str(len(watched) + len(notFinished) + len(notStarted)))
     if countW:
         print("Animes watched: " + str(len(watched)))
     elif countF:
         print("Animes not finished: " + str(len(notFinished)))
     elif countS:
         print("Animes not started: " + str(len(notStarted)))
+    elif countM:
+        print("Mangas: " + str(len(manga)))
     exit()
 
 # Sort list alphabetically
@@ -253,10 +261,13 @@ else:
         nf = True
     elif aList == 3:
         ns = True
+    elif aList == 4:
+        m = True
     else:
         w = True
         nf = True
         ns = True
+        m = True
 
     if w:
         print("List #1(watched):")
@@ -276,5 +287,12 @@ else:
     if ns:
         print("List #3(not started):")
         for n in notStarted:
+            print(str(count) + ") " + n)
+            count += 1
+        count = 1
+        print("")
+    if m:
+        print("List #4(manga):")
+        for n in manga:
             print(str(count) + ") " + n)
             count += 1

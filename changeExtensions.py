@@ -2,18 +2,22 @@ import os
 import glob
 from getExtension import getEx, getName
 
-location = os.getcwd()
+# location = os.getcwd()
 
-q = input("You will change the extension of all files in this folder. Are you sure?")
+q = input("You are going to change the extension of all the files in this folder. Are you sure? ")
 q = q.lower()
+
 if q == "n" or q == "no":
     exit()
+ex = ""
+location = input("Path the folder with the files you want: ")
 
-for f in glob.glob(os.path.join(location, "*")):
-    if os.path.splitext(f)[1] == ".txt":
-        ex = "png" 
-    else:
-        ex = "txt"
+
+# for f in glob.glob(os.path.join(location, "*")):
+#     if os.path.splitext(f)[1] == ".txt":
+#         ex = "png"
+#     else:
+#         ex = "txt"
 
 for f in glob.glob(os.path.join(location, "*")):
     
@@ -21,7 +25,7 @@ for f in glob.glob(os.path.join(location, "*")):
 
     path = os.path.splitext(name)[0]
 
-    newFile = path + "." + ex
+    newFile = path + "." + "pdf"
 
     os.rename(name, newFile)
 

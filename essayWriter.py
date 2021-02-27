@@ -5,12 +5,18 @@ from random import randint
 
 
 # 97 -- 122
-def randomWord():
-    wordLength = randint(2, 10)
+def randomWord(x):
+    letters = []
+    count = 0
+
+    while count <= x:
+        r = randint(97, 122)
+        letters.append(r)
+        count += 1
+
     newWord = ""
-    while len(newWord) < wordLength:
-        letters = randint(97, 122)
-        newWord = newWord + chr(letters)
+    for n in range(x):
+        newWord = newWord + chr(letters[n])
 
     return newWord
 
@@ -148,6 +154,6 @@ def randomWordsBig():
     r = randint(0, 999)
     return words[r]
 
-
 # randomWordsBig()
-print(randomText(2000, 2))
+# print(randomText(2000, 2))
+# print(randomWord(22))
