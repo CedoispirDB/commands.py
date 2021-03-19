@@ -1,6 +1,4 @@
-from essayWriter import randomWord
 import sys
-
 
 Pass = str(sys.argv[1])
 
@@ -50,7 +48,6 @@ def XOREncript(password):
         # print("chr: " + chr(ord(password[n]) ^ ord(xorKey)))
         answer = answer + chr(ord(password[n]) ^ ord(xorKey))
 
-
     return answer
 
 
@@ -73,7 +70,8 @@ def fromASCII(password):
     return answer
 
 
-myPass = "bihbiica``bihca`abiibihca`abigbihca``ca`ebihca`abifbihbiica`cbihca`abigbihca``ca`ebihca`eca`cbihca`eca`dbihca`eca`e"
+myPass = "bihbiica``bihca`abiibihca`abigbihca``ca`ebihca`abifbihbiica`cbihca`abigbihca``ca`ebihca`eca`cbihca`eca" \
+         "`dbihca`eca`e "
 string = Pass
 
 string = XOREncript(string)
@@ -91,4 +89,3 @@ if string == myPass:
     sys.exit("True")
 else:
     sys.exit("False")
-

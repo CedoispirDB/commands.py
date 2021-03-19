@@ -51,5 +51,4 @@ for n in word3:
 for n in word4:
     result = result + myMap[n]
 
-# sys.exit(result)
-print(result)
+sys.exit(result)

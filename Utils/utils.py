@@ -1,6 +1,3 @@
-from spellCheck import checkSimilarity
-
-
 def checkForSameValues(listM):
     count = 0
     for n in listM:

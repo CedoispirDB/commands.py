@@ -25,7 +25,7 @@ for f in glob.glob(os.path.join(location, "*")):
 
     path = os.path.splitext(name)[0]
 
-    newFile = path + "." + "pdf"
+    newFile = path + "." + "jpg"
 
     os.rename(name, newFile)
 

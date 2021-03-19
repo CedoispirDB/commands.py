@@ -19,8 +19,8 @@ if option == "yes" or option == "y":
 elif option == "no" or option == "n":
     write(listOfAnime(1), listOfAnime(2), listOfAnime(3))
 
-anime1 = open("/Users/marcobarreirinhas/Programs/Python/AnimeList.txt", "w")
-anime2 = open("/Users/marcobarreirinhas/Programs/Python/AnimeList2.txt", "r")
+anime1 = open("/Users/marcobarreirinhas/Programs/Python/UtilsTexts/AnimeList.txt", "w")
+anime2 = open("/Users/marcobarreirinhas/Programs/Python/Utils/Texts/AnimeList2.txt", "r")
 
 for lines in anime2:
     anime1.write(lines)

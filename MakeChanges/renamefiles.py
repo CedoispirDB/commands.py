@@ -15,6 +15,7 @@ def randomName():
 choice = input("Choose a file: ")
 
 for files in glob.glob(os.path.join(choice, '*')):
+    print(files)
     path = os.path.split(files)[0]
     ex = os.path.splitext(files)[1]
     os.rename(os.path.splitext(files)[0] + os.path.splitext(files)[1], path + "/m" + randomName() + ex)

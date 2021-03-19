@@ -17,4 +17,4 @@ mouse = Controller()
 
 while True:
     webbrowser.open("https: // mail.google.com/mail/u/0 /  # inbox")
-    mouse.position = (random.randint(-width,width), random.randint(-height,height))
+    mouse.position = (random.randint(-width, width), random.randint(-height, height))

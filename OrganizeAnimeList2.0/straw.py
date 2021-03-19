@@ -1,6 +1,6 @@
 import sys
-from utils import isText
-from utils import locate
+from Utils.utils import isText
+from Utils.utils import locate
 
 animePos = 0
 initPos = 0
@@ -94,8 +94,8 @@ if len(sys.argv) > 1:
         exit(0)
 
 # Open files to read from and to write on
-file = open("/Users/marcobarreirinhas1/Programs/Python/AnimeList.txt", "r")
-file2 = open("/Users/marcobarreirinhas1/Programs/Python/AnimeList2.txt", "w")
+file = open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/AnimeList.txt", "r")
+file2 = open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/AnimeList2.txt", "w")
 
 for line in file:
     line = line.strip("\n")
@@ -250,8 +250,8 @@ if not showContent:
 
     file.close()
     file2.close()
-    file = open("/Users/marcobarreirinhas1/Programs/Python/AnimeList.txt", "w")
-    file2 = open("/Users/marcobarreirinhas1/Programs/Python/AnimeList2.txt", "r")
+    file = open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/AnimeList.txt", "w")
+    file2 = open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/AnimeList2.txt", "r")
     for k in file2:
         file.write(k)
 else:
