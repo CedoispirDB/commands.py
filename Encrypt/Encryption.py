@@ -1,7 +1,5 @@
 import sys
 
-Pass = str(sys.argv[1])
-
 
 def getChar(sequence):
     answer = []
@@ -70,22 +68,51 @@ def fromASCII(password):
     return answer
 
 
-myPass = "bihbiica``bihca`abiibihca`abigbihca``ca`ebihca`abifbihbiica`cbihca`abigbihca``ca`ebihca`eca`cbihca`eca" \
-         "`dbihca`eca`e "
-string = Pass
+def encrypt(string):
+    # print("Init: " + string)
+    string = XOREncript(string)
+    # print("After XOR 1: " + string)
+    string = toASCII(string)
+    # print("After ASCII 2: " + string)
+    string = XOREncript(string)
+    # print("After XOR 3: " + string)
+    string = toASCII(string)
+    # print("After ASCII 4: " + string)
+    string = XOREncript(string)
+    # print("After XOR 5: " + string)
+    return string
 
-string = XOREncript(string)
-# print(string)
-string = toASCII(string)
-# print(string)
-string = XOREncript(string)
-# print(string)
-string = toASCII(string)
-# print(string)
-string = XOREncript(string)
-# sys.exit(string)
 
-if string == myPass:
-    sys.exit("True")
-else:
-    sys.exit("False")
+def decrypt(string):
+    # print("Init: " + string)
+    string = XOREncript(string)
+    # print("After XOR 1: " + string)
+    string = fromASCII(string)
+    # print("After ASCII 2: " + string)
+    string = XOREncript(string)
+    # print("After XOR 3: " + string)
+    string = fromASCII(string)
+    # print("After ASCII 4: " + string)
+    string = XOREncript(string)
+    # print("After XOR 5: " + string)
+    return string
+
+
+if __name__ == '__main__':
+    myPass = "bihbiica``bihca`abiibihca`abigbihca``ca`ebihca`abifbihbiica`cbihca`abigbihca``ca`ebihca`eca`cbihca`eca" \
+             "`dbihca`eca`e"
+
+    password = ""
+
+    if len(sys.argv) > 1:
+        password = str(sys.argv[1])
+    else:
+        print("Error: No argument")
+        exit(0)
+
+    password = encrypt(password)
+
+    if password == myPass:
+        sys.exit("true")
+    else:
+        sys.exit("false")

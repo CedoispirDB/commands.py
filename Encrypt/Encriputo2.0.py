@@ -1,8 +1,9 @@
 import glob
 import os
 import hashlib
+from EncryptPath import getPath
 
-choice = "/Users/Test"
+choice = getPath()
 count = 0
 for files in glob.glob(os.path.join(choice, '*')):
     count += 1

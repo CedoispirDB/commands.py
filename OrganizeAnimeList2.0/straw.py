@@ -1,11 +1,9 @@
 import sys
-from Utils.utils import isText
-from Utils.utils import locate
+from utils import isText, locate
 
 animePos = 0
 initPos = 0
 finPos = 0
-
 watched = []
 notFinished = []
 notStarted = []

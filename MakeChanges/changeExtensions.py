@@ -1,6 +1,6 @@
 import os
 import glob
-from getExtension import getEx, getName
+from Utils.getExtension import getEx, getName
 
 # location = os.getcwd()
 
