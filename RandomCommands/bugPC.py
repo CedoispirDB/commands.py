@@ -1,7 +1,7 @@
 from pynput.mouse import Button, Controller
 import random
-import tkinter as tk
 import webbrowser
+import tkinter as tk
 
 sure = input("Are you sure? ")
 sure = sure.lower()

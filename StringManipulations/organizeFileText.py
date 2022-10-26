@@ -1,4 +1,4 @@
-file = open("/Users/marcobarreirinhas1/Programs/Python/numbers.txt", "r")
+file = open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/numbers.txt", "r")
 numbers = []
 
 for lines in file:
@@ -7,7 +7,7 @@ for lines in file:
         numbers.append(n)
 
 file.close()
-file = open("/Users/marcobarreirinhas1/Programs/Python/numbers.txt", "w")
+file = open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/numbers.txt", "w")
 
 for n in numbers:
     n = n.split(",")[0]

@@ -94,9 +94,9 @@ def format(file, nLines):
     return answer
 
 
-# for line in open("/Users/marcobarreirinhas1/Programs/Python/words.txt", "r"):
-#     line = line.split("\n")
-#     print(line[0])
+for line in open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/words.txt", "r"):
+    line = line.split("\n")
+    print(line[0])
 
 # listOfWords = []
 # listOfWords.sort()
@@ -104,5 +104,12 @@ def format(file, nLines):
 # formatWords(formMultiplyString(open("/Users/marcobarreirinhas1/Programs/Python/words.txt", "r")),
 #             formMultiplyString(open("/Users/marcobarreirinhas1/Programs/Python/words2.txt", "r")))
 
-# print(formMultiplyString(open("/Users/marcobarreirinhas1/Programs/Python/words.txt", "r")))
-print(format(open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/words.txt", "r"), 78498))
+# print(formMultiplyString(open("/Users/marcobarreirinhas1/Programs/Python/words.txt", "r"))) print(formatWords(open(
+# "/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/words.txt", "r"),
+# open("/Users""/marcobarreirinhas1/Programs/Python/UtilsTexts/words2.txt", "r")))
+# count = 0
+# for lines in open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/words.txt", "r"):
+#     count += 1
+# print(format(open("/Users/marcobarreirinhas1/Programs/Python/UtilsTexts/words.txt", "r"), 20))
+
+print()
